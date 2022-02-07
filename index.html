@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+    <!-- ********Header Section********* -->
+    <header>
+        <div id="navbar">
+            <div id="name">
+                Wirex Library
+            </div>
+            <div id="menu">
+                <a href="index.html">HOME</a>
+            </div>
+            <div id="searchbar">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <button id="searchbtn">Search</button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- **********Main Section************ -->
+    <div id="main">
+        <div id="first">
+            <h2>Wirex Library</h2>
+            <hr>
+            <form id="details">
+                <div>
+                    Name <input type="text" name="name" id="bookname" minlength="3" maxlength="10" placeholder="Book Name" required>
+                </div>
+                <div>
+                    Author <input type="text" name="name" id="author" minlength="3" maxlength="10" placeholder="Author" required>
+                </div>
+                <div>
+                    Type
+                    <div id="radio">
+                        <div><input type="radio" name="r1" id="r1" value="Fion" checked> Fiction</div>
+                        <div><input type="radio" name="r1" id="r2" value="Programming"> Programming</div>
+                        <div><input type="radio" name="r1" id="r3" value="Cooking"> Cooking</div>
+                    </div>
+                </div>
+                <input type="submit" value="Add Book" id="addbook">
+            </form>
+        </div>
+        <div id="second">
+            <!-- This for output -->
+            <h2 id="h">Your Books</h2>
+            <hr>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">Type</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <!-- Input with js -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

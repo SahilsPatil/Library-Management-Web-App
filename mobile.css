@@ -1,0 +1,94 @@
+@media only screen and (max-width :1520px){
+    /* body{
+        background-color: green;
+    } */
+    #main{
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+}
+@media only screen and (max-width :1305px){
+    /* body{
+        background-color: rgb(128, 115, 0);
+    } */
+    #main{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+@media only screen and (max-width :1112px){
+    /* body{
+        background-color: rgb(0, 128, 62);
+    } */
+    #main{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    #table tr th{
+        padding-right: 140px;        
+        
+    }
+}
+@media only screen and (max-width :759px){
+    /* body{
+        background-color: rgb(4, 0, 128);
+    } */
+    #main{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    #table tr th{
+        padding-right: 80px;        
+        
+    }
+}
+@media only screen and (max-width :552px){
+    /* body{
+        background-color: rgb(128, 0, 105);
+    } */
+    #main{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #table tr th{
+        padding-right: 80px;        
+        
+    }
+}
+@media only screen and (max-width :449px){
+    /* body{
+        background-color: rgb(128, 15, 0);
+    } */
+    #main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #table tr th{
+        padding-right: 60px;  
+
+    }
+    #name{
+        padding-bottom: 15px;
+    }
+    #menu{
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 12px;
+    }
+    #searchbar{
+        padding-left: 15px;
+        padding-right: 2px;   
+    }
+    #navbar{
+        font-weight: bold;
+        font-size: 13px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;
+        color: white;
+        background-color: black;
+    }
+}
