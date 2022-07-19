@@ -2,7 +2,7 @@
 
 [Click To View](https://sahilspatil.github.io/Library-Management-Web-App/)
 
-![Design preview for the Shortly URL shortening API coding challenge](./images/image.png)
+![Design preview for the Shortly URL shortening API coding challenge](./image.png)
 
 ## Welcome! 👋
 
